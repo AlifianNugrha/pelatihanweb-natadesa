@@ -18,10 +18,10 @@ export default function Navbar() {
     }, []);
 
     const navLinks = [
-        { name: "Tentang Kami", href: "#about" },
-        { name: "Layanan", href: "#layanan" },
-        { name: "Kolaborasi", href: "#kolaborasi" },
-        { name: "FAQ", href: "#faq" },
+        { name: "Tentang Kami", href: "/#about" },
+        { name: "Layanan", href: "/layanan" },
+        { name: "Kolaborasi", href: "/#kolaborasi" },
+        { name: "FAQ", href: "/#faq" },
     ];
 
     return (

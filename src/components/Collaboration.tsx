@@ -15,10 +15,7 @@ export default function Collaboration() {
                     <div className="text-orange-600 font-bold text-xs tracking-widest uppercase mb-2 flex items-center justify-center gap-2">
                         Kemitraan Strategis
                     </div>
-                    <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-green-950 mb-4">
-                        Berkolaborasi Resmi dengan <br className="hidden md:block" />
-                        <span className="text-green-600">Solo Technopark</span>
-                    </h2>
+
                     <p className="text-slate-600 mb-6 max-w-lg mx-auto text-sm md:text-base">
                         Kolaborasi ini menjamin kualitas pelatihan terbaik dengan dukungan
                         fasilitas teknologi dan inovasi terkini di ekosistem Solo Technopark.
