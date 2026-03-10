@@ -54,6 +54,8 @@ export default function Hero() {
 
                 {/* Visual Element / Card */}
                 <div className="relative mx-auto mt-10 md:mt-0 max-w-md md:max-w-lg lg:max-w-xl w-full">
+                    <div className="absolute top-0 -left-6 w-80 h-80 bg-green-400 rounded-full mix-blend-multiply filter blur-2xl opacity-30 animate-blob"></div>
+                    <div className="absolute top-0 -right-6 w-80 h-80 bg-orange-400 rounded-full mix-blend-multiply filter blur-2xl opacity-30 animate-blob animation-delay-2000"></div>
 
                     <div className="relative z-10 transition-transform duration-500 hover:scale-[1.02] mt-4 md:mt-0">
                         {/* Wrapper foto dengan mask gradient putih bawah */}
@@ -68,7 +70,7 @@ export default function Hero() {
                         </div>
 
                         {/* Floating Badge 1 - Free Sertifikat */}
-                        <div className="absolute -top-4 -left-2 md:-top-6 md:-left-8 bg-white/95 backdrop-blur-sm border border-slate-100 p-2 md:p-4 rounded-xl flex items-center gap-2 md:gap-3 animate-float-1 shadow-sm">
+                        <div className="absolute -top-4 -left-2 md:-top-6 md:-left-8 bg-white/95 backdrop-blur-sm border border-slate-100 p-2 md:p-4 rounded-xl flex items-center gap-2 md:gap-3 animate-float-1">
                             <div className="w-8 h-8 md:w-10 md:h-10 bg-orange-50 text-orange-600 flex items-center justify-center rounded-lg">
                                 <span className="text-lg md:text-xl"> 🧾</span>
                             </div>
@@ -79,7 +81,7 @@ export default function Hero() {
                         </div>
 
                         {/* Floating Badge 2 - Pelatihan BUMDes */}
-                        <div className="absolute top-1/2 -right-2 md:-right-12 -translate-y-1/2 bg-white/95 backdrop-blur-sm border border-slate-100 p-2 md:p-4 rounded-xl flex items-center gap-2 md:gap-3 animate-float-2 shadow-sm">
+                        <div className="absolute top-1/2 -right-2 md:-right-12 -translate-y-1/2 bg-white/95 backdrop-blur-sm border border-slate-100 p-2 md:p-4 rounded-xl flex items-center gap-2 md:gap-3 animate-float-2">
                             <div className="w-8 h-8 md:w-10 md:h-10 bg-green-50 text-green-600 flex items-center justify-center rounded-lg">
                                 <CheckCircle2 size={24} className="w-5 h-5 md:w-6 md:h-6" />
                             </div>
@@ -90,7 +92,7 @@ export default function Hero() {
                         </div>
 
                         {/* Floating Badge 3 - Garansi */}
-                        <div className="absolute -bottom-2 left-6 md:-bottom-1 md:left-20 bg-white/95 backdrop-blur-sm border border-slate-100 p-2 md:p-4 rounded-xl flex items-center gap-2 md:gap-3 animate-float-3 shadow-sm">
+                        <div className="absolute -bottom-2 left-6 md:-bottom-1 md:left-20 bg-white/95 backdrop-blur-sm border border-slate-100 p-2 md:p-4 rounded-xl flex items-center gap-2 md:gap-3 animate-float-3">
                             <div className="w-8 h-8 md:w-10 md:h-10 bg-blue-50 text-blue-600 flex items-center justify-center rounded-lg">
                                 <span className="text-lg md:text-xl">📈</span>
                             </div>

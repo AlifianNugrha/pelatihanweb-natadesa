@@ -46,11 +46,11 @@ export default function Collaboration() {
                     </div>
 
                     {/* Logo Solo Technopark */}
-                    <div className="z-10 flex-1 flex items-center justify-center md:justify-start h-24 md:h-32 transition hover:-translate-y-1 px-4 md:px-0 md:pl-15 lg:pl-15">
+                    <div className="z-10 flex-1 flex items-center justify-center md:justify-start h-24 md:h-32 transition hover:-translate-y-1 px-4 md:px-0 md:pl-6 lg:pl-12">
                         <img
                             src="/solotech.jpg"
                             alt="Logo Solo Technopark"
-                            className="w-72 md:w-80 max-h-full object-contain mix-blend-multiply scale-[1.15]"
+                            className="w-48 md:w-80 max-h-full object-contain mix-blend-multiply md:scale-[1.15]"
                         />
                     </div>
 

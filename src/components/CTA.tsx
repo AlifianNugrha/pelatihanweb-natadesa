@@ -9,9 +9,6 @@ export default function CTA() {
             <div className="absolute bottom-0 left-0 -m-24 w-80 h-80 bg-orange-600 rounded-full mix-blend-multiply opacity-30 blur-3xl"></div>
 
             <div className="max-w-4xl mx-auto px-6 relative z-10 text-center">
-                <div className="inline-block bg-white/10 text-orange-400 font-bold px-3 py-1 rounded-full text-[10px] md:text-xs tracking-widest uppercase mb-6 border border-white/20">
-                    Mulai Transformasi Desa Anda
-                </div>
 
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white mb-6 leading-tight">
                     Siap Majukan Desa Bersama <br />
