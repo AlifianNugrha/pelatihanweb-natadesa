@@ -8,8 +8,11 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Natadesa Nusantara — Konsultan Desa Terpercaya",
+  title: "Pelatihan By Natadesa Nusantara",
   description: "Natadesa Nusantara hadir sebagai mitra strategis desa memberikan pelatihan KDMP dan BUMDes berkualitas.",
+  icons: {
+    icon: "/NDICO.ico"
+  }
 };
 
 export default function RootLayout({
