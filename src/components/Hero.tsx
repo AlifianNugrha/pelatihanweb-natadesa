@@ -57,9 +57,9 @@ export default function Hero() {
                     <div className="absolute top-0 -left-6 w-80 h-80 bg-green-400 rounded-full mix-blend-multiply filter blur-2xl opacity-30 animate-blob"></div>
                     <div className="absolute top-0 -right-6 w-80 h-80 bg-orange-400 rounded-full mix-blend-multiply filter blur-2xl opacity-30 animate-blob animation-delay-2000"></div>
 
-                    <div className="relative z-10 transition-transform duration-500 hover:scale-[1.02] mt-4 md:mt-0">
+                    <div className="relative z-10 transition-transform duration-500 hover:-translate-y-2 mt-4 md:mt-0">
                         {/* Wrapper foto dengan mask gradient putih bawah */}
-                        <div className="relative rounded-3xl overflow-hidden">
+                        <div className="relative rounded-3xl overflow-hidden scale-[1.4] md:scale-[1.5] lg:scale-[1.6] origin-right translate-x-12 md:translate-x-20 lg:translate-x-32 z-0">
                             <img
                                 src="/fotopakhari.png"
                                 alt="Konsultan Natadesa Nusantara"
