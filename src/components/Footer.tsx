@@ -72,7 +72,7 @@ export default function Footer() {
                 <div className="pt-6 border-t border-slate-200 flex flex-col md:flex-row items-center justify-between gap-4 text-xs md:text-sm text-slate-500">
                     <p>&copy; {new Date().getFullYear()} Natadesa Nusantara. All rights reserved.</p>
                     <p>
-                        Kolaborasi resmi bersama <strong className="text-green-950">Solo Technopark</strong>
+                        Kolaborasi <strong className="text-green-950">Solo Technopark</strong>
                     </p>
                 </div>
             </div>

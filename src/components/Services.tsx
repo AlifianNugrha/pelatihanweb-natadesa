@@ -1,4 +1,5 @@
 import { CheckCircle2, Bookmark, BarChart, FileText, MonitorPlay, CalendarDays, Users } from "lucide-react";
+import Link from "next/link";
 
 export default function Services() {
     return (
@@ -69,9 +70,9 @@ export default function Services() {
                                 <span className="text-2xl font-extrabold text-orange-600 min-w-max">Rp 499.000</span>
                             </div>
 
-                            <button className="w-full py-3.5 bg-green-600 hover:bg-green-700 text-white text-sm font-bold rounded-xl transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2 group/btn">
+                            <Link href="/layanan" className="w-full py-3.5 bg-green-600 hover:bg-green-700 text-white text-sm font-bold rounded-xl transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2 group/btn">
                                 Gabung Kelas Live <CheckCircle2 size={16} className="group-hover/btn:scale-110 transition-transform" />
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -102,9 +103,9 @@ export default function Services() {
                                 ))}
                             </ul>
 
-                            <button className="w-full py-2 bg-white text-green-950 text-sm font-bold rounded-md hover:bg-slate-100 transition mt-auto">
+                            <Link href="/layanan" className="w-full py-2 bg-white text-green-950 text-sm font-bold rounded-md hover:bg-slate-100 transition mt-auto text-center">
                                 Pilih Program
-                            </button>
+                            </Link>
                         </div>
                     </div>
 
@@ -130,9 +131,9 @@ export default function Services() {
                             ))}
                         </ul>
 
-                        <button className="w-full py-2 bg-slate-50 border border-slate-200 text-green-950 text-sm font-bold rounded-md hover:border-slate-300 hover:bg-slate-100 transition mt-auto">
+                        <Link href="/layanan" className="w-full py-2 bg-slate-50 border border-slate-200 text-green-950 text-sm font-bold rounded-md hover:border-slate-300 hover:bg-slate-100 transition mt-auto text-center">
                             Lihat Detail
-                        </button>
+                        </Link>
                     </div>
 
                     {/* Card 3 */}
@@ -157,9 +158,9 @@ export default function Services() {
                             ))}
                         </ul>
 
-                        <button className="w-full py-2 bg-slate-50 border border-slate-200 text-green-950 text-sm font-bold rounded-md hover:border-slate-300 hover:bg-slate-100 transition mt-auto">
+                        <Link href="/layanan" className="w-full py-2 bg-slate-50 border border-slate-200 text-green-950 text-sm font-bold rounded-md hover:border-slate-300 hover:bg-slate-100 transition mt-auto text-center">
                             Pelajari Lanjut
-                        </button>
+                        </Link>
                     </div>
 
                 </div>
